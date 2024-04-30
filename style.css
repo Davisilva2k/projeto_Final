@@ -1,105 +1,105 @@
 /* Estilo do cabeçalho */
 header {
-    background-color: #1100ff;
-    color: gold;
-    color: #fff;
-    padding: 3px 0;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-  }
-  #lista-projetos{
-    background-color: red;
-    color: gold;
-  }
-  
-  /* Estilo da barra lateral */
-  aside {
-    float: left;
-    border-right: 5px solid #00ff0d;
-    background-color: #fa3707;
-    width: 181px;
-    position: fixed;
-    top: 86px;
-    bottom: 0;
-    overflow-y: auto;
-    padding: 20px;
-  }
-  
-  /* Estilo do conteúdo principal */
-  main {
-    margin-top: 85px; /* para compensar o cabeçalho fixo */
-    margin-left: 220px;
-    margin-right: -7px; /* para compensar a barra lateral fixa */
-    padding: 30px;
-    background-color: black;
-    color: white;
-  }
-  
-  button:hover{
-    cursor: pointer;
-    color: #00ff0d;
-  }
-  button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: rgb(3, 73, 224);
-    border-radius: 8px;
-    color: #fa3707;
-    border: none;
-    cursor: pointer;
-    transition: .2s;
-  }
-  
-  /* Estilo dos detalhes do projeto */
-  #conteudo-exibido {
-    margin-top: 20px;
-  }
-  
-  /* Estilo das informações pessoais */
-  #informacoes-pessoais {
-    margin-top: 20px;
-  }
+  background-color: #1100ff;
+  color: gold;
+  color: #fff;
+  padding: 3px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+#lista-projetos{
+  background-color: red;
+  color: gold;
+}
 
-  .informacoes-pessoais img {
-    width: 166px;
-    border-radius: 10%;
-   
-    top: -18px;
-  }
-  h5{
-    font-size: 25px;
-    color: gold;
-    margin: -6px;
-  }
-img {
-    width: 720px;
-  overflow-clip-margin: content-box;
+/* Estilo da barra lateral */
+aside {
+  float: left;
+  border-right: 5px solid #00ff0d;
+  background-color: #fa3707;
+  width: 181px;
+  position: fixed;
+  top: 86px;
+  bottom: 0;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/* Estilo do conteúdo principal */
+main {
+  margin-top: 85px; /* para compensar o cabeçalho fixo */
+  margin-left: 220px;
+  margin-right: -7px; /* para compensar a barra lateral fixa */
+  padding: 105px;
+  background-color: black;
+  color: white;
+}
+
+button:hover{
+  cursor: pointer;
+  color: #00ff0d;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(3, 73, 224);
+  border-radius: 8px;
+  color: #fa3707;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+}
+
+/* Estilo dos detalhes do projeto */
+#conteudo-exibido {
+  margin-top: 20px;
+}
+
+/* Estilo das informações pessoais */
+#informacoes-pessoais {
+  margin-top: 20px;
  
 }
-  /* Estilo do portfólio */
-  #portfolio {
-    margin-top: 20px;
-  }
-  
-  /* Estilo do sobre mim */
-  #sobre-mim {
-    margin-top: 20px;
-  }
-  footer {
-    text-align: center;
-    padding: 1px 0;
-    background-color: #fa3707;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    border-top: 5px solid #00ff0d;
+
+.informacoes-pessoais img {
+  width: 166px;
+  border-radius: 10%;
+ 
+  top: -18px;
+}
+h5{
+  font-size: 25px;
+  color: gold;
+  margin: -6px;
+}
+img {
+  width: 720px;
+overflow-clip-margin: content-box;
+
+}
+/* Estilo do portfólio */
+#portfolio {
+  margin-top: 20px;
+}
+
+/* Estilo do sobre mim */
+#sobre-mim {
+  margin-top: 20px;
+}
+footer {
+  text-align: center;
+  padding: 1px 0;
+  background-color: #fa3707;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 5px solid #00ff0d;
 }
 #sobre-mim p{
-    font-size: 20px;
+  font-size: 20px;
 }
-  

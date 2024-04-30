@@ -14,7 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
       titulo: "Projeto 3",
       descricao: "Projeto de Calculadora sendo desenvolvido.",
       imagem: "/imagem/imagem_projeto3.png",
+    },
+    {
+      titulo: "Volte para pagina principal",
+      descricao: "você está de volta na pagina principal",
+    
     }
+  
   ];
 
   const listaProjetos = document.getElementById("lista-projetos");
@@ -55,4 +61,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   };
 });
-
