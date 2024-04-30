@@ -10,15 +10,15 @@ header {
   top: 0;
 }
 #lista-projetos{
-  background-color: red;
-  color: gold;
+  background-color: maroon;
+  color: rgb(12, 243, 0);
 }
 
 /* Estilo da barra lateral */
 aside {
   float: left;
   border-right: 5px solid #00ff0d;
-  background-color: #fa3707;
+  background-image: linear-gradient(gray ,black, rgb(102, 5, 5));
   width: 181px;
   position: fixed;
   top: 86px;
@@ -93,8 +93,8 @@ overflow-clip-margin: content-box;
 footer {
   text-align: center;
   padding: 1px 0;
-  background-color: #fa3707;
-  color: #fff;
+  background-color: maroon;
+  color: rgb(0, 255, 42);
   position: fixed;
   bottom: 0;
   width: 100%;
